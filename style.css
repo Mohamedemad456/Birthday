@@ -1,156 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
-body {
-	font-family: 'Indie Flower', cursive !important;
-  background: #FDE3A7;
-	margin: 0px;
-	padding: 0px;
-}
-
-::selection {
-	background: transparent;
-}
-
-h4 {
-	font-size: 26px;
-	line-height: 1px;
-	font-family: 'Amatic SC', cursive !important;
-}
-
-.color1{color:#1BBC9B}
-.color2{color:#C0392B}
-
-
-.card {
-	color: #013243; 
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 300px;
-	height: 400px;
-	background: #e0e1dc;
-	transform-style: preserve-3d;
-	transform: translate(-50%,-50%) perspective(2000px);
-	box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
-	transition: 1s;
-}
-
-.card:hover {
-	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
-	box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
-}
-
-.card:before {
-	content:'';
-	position: absolute;
-	top: -5px;
-	left: 0;
-	width: 100%;
-	height: 5px;
-	background: #BAC1BA;
-	transform-origin: bottom;
-	transform: skewX(-45deg);
-}
-
-.card:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: -5px;
-	width: 5px;
-	height: 100%;
-	background: #92A29C;
-	transform-origin: left;
-	transform: skewY(-45deg);
-}
-
-.card .imgBox {
-	width: 100%;
-	height: 100%;
-	position: relative;
-	transform-origin: left;
-	transition: .7s;
-}
-
-.card .bark {
-	position: absolute;
-	background: #e0e1dc;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: .7s;
-}
-
-.card .imgBox img {
-	min-width: 250px;
-	max-height: 400px;
-}
-
-.card:hover .imgBox {
-	transform: rotateY(-135deg);
-}
-
-.card:hover .bark {
-	opacity: 1;
-	transition: .6s;
-  box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
-}
-
-.card .details {
-	position: absolute;
-	top: 0;
-	left: 0;
-	box-sizing: border-box;
-	padding: 0 0 0 10px;
-	z-index: -1;
-	margin-top: 70px;
-}
-
-.card .details p {
-	font-size: 15px;
-	line-height: 5px;
-	transform: rotate(-10deg);
-	padding: 0 0 0 20px;
-}
-
-.card .details h4 {
-	text-align: center;
-}
-
-.text-right {
-	text-align: right;
-}
-
-.one_number {
-    position: absolute;
-    left: 147px;
-    top: 25px;
-    width: 9px;
-}
-.one_number:after {
-    content: "";
-    height: 10px;
-    border-radius: 50px;
-    width: 5px;
-    position: absolute;
-    background: #c6c6c6;
-    top: 0px;
-    left: 0px;
-}
-.one_number:before {
-    content: "";
-    height: 25px;
-    width: 5px;
-    position: absolute;
-    background: #c6c6c6;
-    top: 0px;
-    right: 0px;
-} */
-
-body {
-    background: #ffebd0;
-}
 .gift {
     position: absolute;
     bottom: 0px;
@@ -160,9 +7,9 @@ body {
     height: 180px;
 }
 .wrap {
-    height: 300px;
+    height: 400px;
     width: 800px;
-    margin: 0px auto;
+    margin: 180px auto;
     position: relative;
 }
 .ribbon_right {
@@ -311,7 +158,7 @@ body {
     background: #ffb009;
     position: absolute;
     width: 230px;
-    bottom: 89px;
+    bottom: 83px;
     right: 50px;
     border-radius: 5px 5px 0px 0px;
     left: 50px;
@@ -323,7 +170,7 @@ body {
     background: #744c28;
     position: absolute;
     width: 140px;
-    bottom: 138px;
+    bottom: 129px;
     border-radius: 5px 5px 0px 0px;
     left: 0px;
     right: 0px;
@@ -911,9 +758,9 @@ body {
     background: #fff;
     box-shadow: 0px 1px 0px 1px #fee4c0;
     padding: 10px;
-    width: 80px;
+    width: 100px;
     font-size: 15px;
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #ff3f48;
     left: 0px;
     top: 120px;
@@ -928,7 +775,7 @@ font-family: 'Source Sans Pro', sans-serif;
     -webkit-transition-delay: 0.5s;
     transition-delay: 0.5s;
     o-transition: all 0.6s ease-in-out;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -938,15 +785,15 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 .candle-2 {
     position: absolute;
-    left: 135px;
-    top: 22px;
-    width: 30px;
+    left: 130px;
+    top: 20px;
+    width: 40px;
 }
 .candle-1 {
     position: absolute;
-    left: 170px;
-    top: 22px;
-    width: 30px;
+    left: 160px;
+    top: 20px;
+    width: 40px;
 }
 
 .link{
@@ -997,72 +844,4 @@ font-family: 'Source Sans Pro', sans-serif;
         height: 12px;
         background: #fdd214;
     }
-}
-
-
-.button-85 {
-  padding: 5px;
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  background: #111;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-85:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-
-@keyframes glowing-button-85 {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-.button-85:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #222;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
 }
