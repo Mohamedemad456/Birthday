@@ -23,6 +23,7 @@ h4 {
 
 
 .card {
+	margin-top: 20px;
 	color: #013243; /*SHERPA BLUE*/
 	position: absolute;
 	top: 50%;
@@ -121,3 +122,19 @@ h4 {
 .text-right {
 	text-align: center;
 }
+
+.arrow-container {
+    z-index: 10;
+    animation: moveUpDown 1.5s infinite ease-in-out;
+	margin-right: 320px;
+	margin-top: 25px;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0); /* Initial position */
+    }
+    50% {
+      transform: translateY(-10px); /* Moves up by 10px */
+    }
+  }
