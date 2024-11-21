@@ -803,6 +803,20 @@
 
 }
 
+.arrow-container {
+    animation: moveUpDown 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0); /* Initial position */
+    }
+    50% {
+      transform: translateY(-10px); /* Moves up by 10px */
+    }
+  }
+  
+
 @-webkit-keyframes flame {
     0% {
         height: 12px;
